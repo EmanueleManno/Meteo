@@ -1,0 +1,93 @@
+/* 
+COLOR PALETTE 
+  bg-color: rgb(76, 100, 242);
+  panel-color: rgb(184, 211, 255);
+*/
+
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Stile del Contenitore*/
+.container {
+	margin: 0 auto;
+	max-width: 540px;
+}
+
+/*Stile del pannello*/
+.panel {
+	margin: 16px;
+	padding: 16px;
+	border-radius: 16px;
+	background-color: rgb(184, 211, 255);
+}
+
+/*Stile del Corpo della pagina*/
+body {
+	line-height: 1;
+	font-family: Inter, sans-serif;
+	background-color: rgb(76, 100, 242);
+}
+
+/*Stile dell'Header*/
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*Stile del titolo dell'Header*/
+h1 {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+/*Stile del Corpo principale della pagina*/
+main {
+	text-align: center;
+}
+
+/*Informazioni meteo*/
+.weather-info {
+	min-height: 450px;
+}
+
+/*Icona del meteo*/
+.weather-icon {
+	max-width: 90%;
+	transition: opacity 0.5s, translate 1s;
+}
+
+/*Luogo*/
+.weather-location {
+	font-size: 32px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/*Temperatura*/
+.weather-temperature {
+	font-size: 120px;
+	font-weight: 500;
+}
+
+/*Suggerimenti*/
+.suggestion {
+	font-size: 24px;
+	font-weight: 700;
+	transition: scale 1s;
+}
+
+/*Effetti dopo il loader*/
+.js-loading {
+	.weather-icon {
+		opacity: 0;
+		translate: 0 30px;
+	}
+	.suggestion {
+		scale: 0;
+	}
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it" class="js-loading">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Titolo della pagina-->
+    <title>Meteo | Coding Week</title>
+
+    <!--Icona della pagina-->
+    <link rel="image" href="images/icon.png" />
+
+    <!--Importazione del Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Collegamento col foglio di stile CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Collegamento col foglio JS Suggestion-->
+    <script src="suggestions.js"></script>
+  </head>
+
+  <body>
+    <!--Contenitore-->
+    <div class="container">
+      <!--Header della pagina-->
+      <header class="panel">
+        <!--Titolo dell'Header-->
+        <h1>Meteo</h1>
+        <!--Logo dell'Header-->
+        <img src="images/logo.png" alt="logo boolean" />
+      </header>
+
+      <!--Contenuto principale-->
+      <main>
+        <!--Pannello delle informazioni inerenti al meteo-->
+        <section class="weather-info panel">
+          <!--Luogo-->
+          <div class="weather-location">Calcolo....</div>
+          <!--Icona del tempo-->
+          <img src="" alt="" class="weather-icon" />
+          <!--Temperatura-->
+          <div class="weather-temperature"></div>
+        </section>
+
+        <!-- Pannello dei suggerimenti -->
+        <section class="suggestion panel"></section>
+      </main>
+    </div>
+
+    <!--Collegamento col file JS Script-->
+    <script src="script.js"></script>
+  </body>
+</html>
